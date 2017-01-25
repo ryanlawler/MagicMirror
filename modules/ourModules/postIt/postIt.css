@@ -1,0 +1,32 @@
+.post-it {
+  position: relative;
+  font-size: .5em;
+  margin-bottom: 1rem;
+  padding: 1rem 3rem 3rem 1rem;
+  border: 2px solid white;
+  max-width: 20rem;
+}
+.post-it:before {
+  content: "";
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  border-bottom: calc(2rem + 4px) solid black;
+  border-left: calc(2rem + 4px) solid transparent;
+  width: 0;
+  height: 0;
+}
+.post-it:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-top: 2rem solid white;
+  border-right: 2rem solid transparent;
+  width: 0;
+  height: 0;
+}
+
+.post-it-title {
+  font-size: 1.5em;
+}

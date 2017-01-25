@@ -15,6 +15,7 @@ node_modules
 jspm_modules
 .npm
 .node_repl_history
+*.swp
 
 # Various Windows ignoramuses.
 Thumbs.db
@@ -58,9 +59,9 @@ Temporary Items
 !/modules/node_helper/**
 
 # Ignore all modules except the default modules.
-/modules/**
-!/modules/default/**
-!/modules/README.md**
+#/modules/**
+#!/modules/default/**
+#!/modules/README.md**
 
 # Ignore changes to the custom css files.
 /css/custom.css

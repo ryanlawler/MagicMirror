@@ -93,7 +93,7 @@ var Loader = (function() {
 				index: m,
 				identifier: "module_" + m + "_" + module,
 				name: moduleName,
-				path: moduleFolder + "/" ,
+				path: moduleFolder,
 				file: moduleName + ".js",
 				position: moduleData.position,
 				header: moduleData.header,

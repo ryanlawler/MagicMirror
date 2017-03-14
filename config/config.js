@@ -13,13 +13,6 @@ var config = {
 
 	modules: [
 		{
-			module: 'alert',
-		},
-		{
-			module: 'clock',
-			position: 'top_left'
-		},
-		{
 			module: 'calendar',
 			header: 'US Holidays',
 			position: 'top_left',
@@ -40,9 +33,9 @@ var config = {
 			module: 'currentweather',
 			position: 'top_right',
 			config: {
-				location: 'Aliso Viejo',
-				locationID: '5323163',  //ID from http://www.openweathermap.org
-				appid: '62cc1b611227126af4e746c1de5f9a3d'
+				location: 'Berkeley',
+				locationID: '5327684',  //ID from http://www.openweathermap.org
+				appid: 'fb48fecfe81fedbf19d33b77871698c9'
 			}
 		},
 		{
@@ -50,25 +43,29 @@ var config = {
 			position: 'top_right',
 			header: 'Weather Forecast',
 			config: {
-	            location: 'Aliso Viejo',
-				locationID: '5323163',  //ID from http://www.openweathermap.org
-	            appid: '62cc1b611227126af4e746c1de5f9a3d'
+	            location: 'Berkeley',
+				locationID: '5327684',  //ID from http://www.openweathermap.org
+			appid: 'fb48fecfe81fedbf19d33b77871698c9'
 			}
 		},
 		{
-			module: 'newsfeed',
-			position: 'bottom_bar',
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true
-			}
-		},
+            module: 'newsfeed',
+            position: 'bottom_bar',
+            config: {
+                feeds: [
+                    {
+                        title: "New York Times",
+                        url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+                    }
+                ],
+                showSourceTitle: true,
+                showPublishDate: true
+            }
+        },
+        {
+            module: 'imageViewer',
+            position: 'bottom_left',
+        },
 	]
 
 };

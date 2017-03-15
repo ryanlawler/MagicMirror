@@ -75,7 +75,7 @@ var config = {
         },
         {
             module: 'imageViewer2',
-            position: 'bottom_left',
+            position: 'bottom_right',
         }
 	]
 

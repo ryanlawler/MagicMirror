@@ -12,6 +12,17 @@ var config = {
 	units: 'imperial',
 
 	modules: [
+	    {
+            module: 'alert',
+        },
+        {
+            module: "updatenotification",
+            position: "top_bar"
+        },
+        {
+            module: 'clock',
+            position: 'top_left'
+        },
 		{
 			module: 'calendar',
 			header: 'US Holidays',

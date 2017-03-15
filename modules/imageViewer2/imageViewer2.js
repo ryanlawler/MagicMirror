@@ -12,7 +12,7 @@ Module.register("imageViewer2",{
 
 	// Default module config. Change the imagesrc to the URL of the image you would like.
 	defaults: {
-        imgsrc: "http://rs839.pbsrc.com/albums/zz313/galacutie_bucket/2-8668.gif~c200",
+        imgsrc: "http://www.freeiconspng.com/uploads/pikachu-transparent-24.gif",
 	},
 
 	// Override dom generator.

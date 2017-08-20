@@ -28,6 +28,14 @@ var config = {
 					{
 						symbol: 'calendar-check-o ',
 						url: 'webcal://www.calendarlabs.com/templates/ical/US-Holidays.ics'
+					},
+					{
+						symbol: "calendar",
+						url: "https://calendar.google.com/calendar/ical/courtneylawler11%40gmail.com/private-489770cacebb966d3a1d13f79f2cdcf6/basic.ics",
+					},
+					{
+						symbol: "calendar-o"
+						url: "https://outlook.office365.com/owa/calendar/b4508fba927b49e7b38fc821a4ef79fd@yum.com/46e1a5e8f2e64dcd9e2165273d53faa616049492060532477113/calendar.ics",
 					}
 				]
 			}
@@ -68,16 +76,6 @@ var config = {
                 showSourceTitle: true,
                 showPublishDate: true
             }
-        },
-        {
-            module: 'imageViewer',
-            position: 'bottom_left',
-        },
-        {
-            module: 'imageViewer2',
-            position: 'bottom_right',
-        }
-	]
 
 };
 
